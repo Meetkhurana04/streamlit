@@ -1,0 +1,10 @@
+import streamlit as st
+st.title("welcome to world")
+st.write("howru")
+st.header("header")
+st.subheader("sub header")
+st.title("html ke tag lgaskte ho ")
+st.markdown("<h1> meet inside html h1</h1>",unsafe_allow_html=True)
+st.markdown("<marquee> news inside html marqeee tag</marquee>",unsafe_allow_html=True)
+st.write("hum usually isme html code nhi rkhte just basic styling and backend work ke liye streamlit")
+st.image("th.jpg")
